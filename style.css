@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    font-family: "roboto",sans-serif;
+}
+
+.container1{
+    background-color: #1F2937;
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    padding-bottom: 100px;
+}
+
+.left{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 50px;
+}
+
+.right{
+    display: flex;
+    gap: 50px;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.sub_cont_1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #1F2937;
+    height: 400px;
+}
+
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-left: 75px;
+}
+
+.sec_text{
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    font-size: 18px;
+    font-weight:lighter;
+    color: #cfcfcf;
+    margin-left: 75px;
+}
+
+.top_signup{
+    display: inline-block;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100px;
+    padding: 12px;
+    margin-top: 16px;
+    margin-left: 75px;
+}
+
+.photo1{
+    width: 500px;
+    height: auto;
+    border-radius: 12px;
+    align-self: flex-end;
+    margin-right: 75px;
+}
+
+.container2{
+    background-color: #F9FAF8;
+    padding-top: 60px;
+}
+
+.header2{
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    
+}
+
+.small_img{
+    border-radius: 8px;
+    height: 150px;
+    width: auto;
+}
+
+.image{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 8px;
+}
+
+.desc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 150px;
+}
+
+.subtext{
+    width: 150px;
+    text-align: center;
+    font-weight:light;
+    color: #5d5d5d;
+}
+
+
+
